@@ -13,16 +13,15 @@ Linux, and other builds).
 
 ## Hosting
 
-Static site served by **GitHub Pages** from the `master` branch of this
-repo, with the custom domain configured via the `CNAME` file. DNS for
-`dashwerks.org` is hosted at DigitalOcean:
-
-- apex `A` records → GitHub Pages IPs (185.199.108–111.153)
-- `www` `CNAME` → `chrisbergeron.github.io`
+This repo is a **historical archive only** (the 2020 Hexo build). The
+live dashwerks.org is served from the `sites/dashwerks.org` directory of
+[The-Holding-Company/landing-pages](https://github.com/The-Holding-Company/landing-pages),
+deployed via GitHub Actions rsync to the landing-pages EC2 origin that
+the domain's DNS points at.
 
 ## History
 
 The site was generated with Hexo + the Metronic theme in 2020; only the
 compiled output lives here. In 2026 the repo was cleaned up (junk files,
-theme placeholder content, and dead links removed) and moved onto GitHub
-Pages after the previous origin server stopped serving it.
+theme placeholder content, and dead links removed) and kept as an
+archive; the live domain is served from the landing-pages repo.
